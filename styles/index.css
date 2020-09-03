@@ -1,18 +1,20 @@
 h1 {
-    color:blue;
+    color:green;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    background-color: black
 } 
 
-/* singel line comment
-
-/*comment that takes up
- multiple work */ 
-
-
+ #second-pharagraph {
+      color:purple;
+}
 p {
     color:red;
-    color: orange;
+    color:orange;
 }
 
-
-
-
+.dog-info, .last-pharagraph{
+    color:pink;
+}
