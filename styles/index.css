@@ -1,20 +1,33 @@
 h1 {
     color:green;
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 600;
     font-style: italic;
     text-align: center;
-    background-color: black
-} 
-
- #second-pharagraph {
-      color:purple;
-}
-p {
-    color:red;
-    color:orange;
+    background-color: black;
 }
 
-.dog-info, .last-pharagraph{
-    color:pink;
+
+
+
+body {
+    background-image: url(../images/skorpion\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background: url(../images/skorpion\ 2.jpg), no-repeat, fixed, center, cover;
+    height:200vh ;
+ /* glöm inte att commit ändringarna att jag har lagt till en bild*/
+}
+
+img {
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border: 5px solid red;
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
+    border-radius: 5px 10px 20px;
+    box-shadow: 10px 10px 10px darkorange;
 }
